@@ -1,5 +1,5 @@
 //
-//  Tile.swift
+//  Credentials.swift
 //  Bingo Scorecard
 //
 //  Created by Karl Cridland on 13/06/2021.
@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 
-class Tile: UIView{
+class Credentials: UIView{
     
     override init(frame: CGRect) {
         super .init(frame: frame)
