@@ -13,6 +13,9 @@
 		6DB6ED522675FC1F003B08DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DB6ED502675FC1F003B08DD /* Main.storyboard */; };
 		6DB6ED542675FC20003B08DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DB6ED532675FC20003B08DD /* Assets.xcassets */; };
 		6DB6ED572675FC20003B08DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DB6ED552675FC20003B08DD /* LaunchScreen.storyboard */; };
+		6DB6ED5F2675FC8C003B08DD /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB6ED5E2675FC8C003B08DD /* Player.swift */; };
+		6DB6ED612675FC94003B08DD /* Tile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB6ED602675FC94003B08DD /* Tile.swift */; };
+		6DB6ED632675FC9E003B08DD /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB6ED622675FC9E003B08DD /* Board.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		6DB6ED532675FC20003B08DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6DB6ED562675FC20003B08DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6DB6ED582675FC20003B08DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DB6ED5E2675FC8C003B08DD /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		6DB6ED602675FC94003B08DD /* Tile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tile.swift; sourceTree = "<group>"; };
+		6DB6ED622675FC9E003B08DD /* Board.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,9 @@
 				6DB6ED4A2675FC1F003B08DD /* AppDelegate.swift */,
 				6DB6ED4C2675FC1F003B08DD /* SceneDelegate.swift */,
 				6DB6ED4E2675FC1F003B08DD /* ViewController.swift */,
+				6DB6ED5E2675FC8C003B08DD /* Player.swift */,
+				6DB6ED622675FC9E003B08DD /* Board.swift */,
+				6DB6ED602675FC94003B08DD /* Tile.swift */,
 				6DB6ED502675FC1F003B08DD /* Main.storyboard */,
 				6DB6ED532675FC20003B08DD /* Assets.xcassets */,
 				6DB6ED552675FC20003B08DD /* LaunchScreen.storyboard */,
@@ -137,7 +146,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DB6ED5F2675FC8C003B08DD /* Player.swift in Sources */,
 				6DB6ED4F2675FC1F003B08DD /* ViewController.swift in Sources */,
+				6DB6ED632675FC9E003B08DD /* Board.swift in Sources */,
+				6DB6ED612675FC94003B08DD /* Tile.swift in Sources */,
 				6DB6ED4B2675FC1F003B08DD /* AppDelegate.swift in Sources */,
 				6DB6ED4D2675FC1F003B08DD /* SceneDelegate.swift in Sources */,
 			);
