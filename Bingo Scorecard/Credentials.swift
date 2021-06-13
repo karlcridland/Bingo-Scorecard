@@ -10,8 +10,13 @@ import UIKit
 
 class Credentials: UIView{
     
+    let view = UIView()
+    
     override init(frame: CGRect) {
         super .init(frame: frame)
+        self.view.backgroundColor = .red
+        self.view.frame = CGRect(x: Settings.shared.bottomConstraint, y: 0, width: frame.height, height: frame.height)
+        self.addSubview(self.view)
     }
     
     required init?(coder: NSCoder) {
